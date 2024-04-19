@@ -1,3 +1,6 @@
+# C:\LegalIa> pip install -r requirements.txt   // Para instalar todas las librerias necesarias
+# C:\LegalIa> pip freeze    // Para listar las dependencias instaladas y sus versiones
+
 Django==5.0.3
 django-cors-headers==4.3.1
 django-extensions==3.2.3
