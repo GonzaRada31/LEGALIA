@@ -1,0 +1,20 @@
+Listado de URLS del backend
+
+http://127.0.0.1:8000/admin/    vista del administrador
+http://127.0.0.1:8000/api/doc/  vista de la documentación del proyecto para encontrar endpoints
+
+URLS del backend:
+http://127.0.0.1:8000/api/chat/
+http://127.0.0.1:8000/api/classify-text/
+http://127.0.0.1:8000/api/documentos/
+http://127.0.0.1:8000/api/generate-text/
+http://127.0.0.1:8000/api/home/documentos/
+http://127.0.0.1:8000/api/home/templates/
+http://127.0.0.1:8000/api/home/upload/
+http://127.0.0.1:8000/api/home/usuarios/
+http://127.0.0.1:8000/api/interactive-doc/
+http://127.0.0.1:8000/api/summarize-document/
+http://127.0.0.1:8000/api/templates/
+http://127.0.0.1:8000/api/upload/
+http://127.0.0.1:8000/api/usuarios/
+
