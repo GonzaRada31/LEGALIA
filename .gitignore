@@ -7,66 +7,33 @@ __pycache__/
 *.log
 .cache
 local_settings.py
+*.sql
+*.json
+.env.*
+.secrets.toml
 
-# Database
+# Database files
 *.sqlite3
 *.db
 
-# Media files
-media
+# Media and static files
+media/
+static/
 
-# Static files
-static
-
-# Environments
-.env
-.venv
-ENV/
+# Virtual environments
+.venv/
 venv/
+ENV/
 
-# IDE specific
+# IDE specific settings
 .idea/
 .vscode/
 *.swp
 *.swo
 
-# Ignore all migrations
+# Migrations
 */migrations/*.py
 !*/migrations/__init__.py
-
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Caches and logs
-*.log
-*.sql
-*.json
-.env
-.DS_Store
-.cache
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# Virtual environment
-venv/
-*.venv/
-ENV/
-
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-media
-
-# Static files
-/static/
-/media/
 
 # Frontend tooling files
 /node_modules/
@@ -77,16 +44,8 @@ media
 /package-lock.json
 /yarn.lock
 
-# Ignore all text files
-*.txt
-
-# Environment files
-.env
-.env.*
-.secrets.toml
-
-# Ignore sensitive data
-secrets.json
+# System files
+.DS_Store
 
 # Docker files (if using Docker)
 docker-compose.yml
