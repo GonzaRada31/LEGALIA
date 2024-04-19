@@ -1,0 +1,94 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and logs
+*.log
+.cache
+local_settings.py
+
+# Database
+*.sqlite3
+*.db
+
+# Media files
+media
+
+# Static files
+static
+
+# Environments
+.env
+.venv
+ENV/
+venv/
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore all migrations
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and logs
+*.log
+*.sql
+*.json
+.env
+.DS_Store
+.cache
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Virtual environment
+venv/
+*.venv/
+ENV/
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media
+
+# Static files
+/static/
+/media/
+
+# Frontend tooling files
+/node_modules/
+/dist/
+/build/
+/.next/
+/.cache/
+/package-lock.json
+/yarn.lock
+
+# Ignore all text files
+*.txt
+
+# Environment files
+.env
+.env.*
+.secrets.toml
+
+# Ignore sensitive data
+secrets.json
+
+# Docker files (if using Docker)
+docker-compose.yml
+*.dockerfile
+.dockerignore
